@@ -16,7 +16,7 @@ Then go to `/dist/bases` directory and run:
 swa deploy ./browser --env production
 ```
 
-And finally select a Azure Web App deployment target.
+And finally select an Azure Web App deployment target.
 
 ## Development server
 
