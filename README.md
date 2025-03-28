@@ -2,6 +2,22 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
 
+## Deploy to Azure
+
+After building with `ng build` command, install **swa** cli for node:
+
+```bash
+npm install -g @azure/static-web-apps-cli
+```
+
+Then go to `/dist/bases` directory and run:
+
+```bash
+swa deploy ./browser --env production
+```
+
+And finally select a Azure Web App deployment target.
+
 ## Development server
 
 To start a local development server, run:
